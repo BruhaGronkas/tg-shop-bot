@@ -1,0 +1,76 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+python-telegram-bot==20.7
+sqlalchemy==2.0.23
+alembic==1.12.1
+
+# Database
+psycopg2-binary==2.9.9
+sqlite3
+
+# Web Framework & Templates
+jinja2==3.1.2
+python-multipart==0.0.6
+static3==0.7.0
+
+# Authentication & Security
+passlib[bcrypt]==1.7.4
+python-jose[cryptography]==3.3.0
+pyotp==2.9.0
+qrcode[pil]==7.4.2
+cryptography==41.0.8
+
+# HTTP & API
+httpx==0.25.2
+requests==2.31.0
+aiohttp==3.9.1
+
+# Data Processing & Export
+pandas==2.1.4
+openpyxl==3.1.2
+reportlab==4.0.7
+matplotlib==3.8.2
+seaborn==0.13.0
+
+# Image Processing
+Pillow==10.1.0
+python-barcode==0.15.1
+
+# Task Queue & Background Jobs
+celery==5.3.4
+redis==5.0.1
+
+# Environment & Configuration
+python-dotenv==1.0.0
+pydantic==2.5.0
+pydantic-settings==2.1.0
+
+# Logging & Monitoring
+loguru==0.7.2
+sentry-sdk==1.38.0
+
+# Translation
+babel==2.13.1
+googletrans==4.0.0rc1
+
+# File Upload & Storage
+boto3==1.34.0
+cloudinary==1.36.0
+
+# Rate Limiting & Security
+slowapi==0.1.9
+python-limiter==3.1.1
+
+# Payment Processing
+stripe==7.8.0
+# Note: NOWPayments doesn't have official Python SDK, will use requests
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development
+black==23.11.0
+flake8==6.1.0
+pre-commit==3.6.0
